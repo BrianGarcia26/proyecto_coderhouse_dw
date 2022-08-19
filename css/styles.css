@@ -8,7 +8,6 @@ body {
     box-sizing: border-box;
 }
 
-/*Comentario*/
 /*Desktop First*/
 /*Layout Grid Inicio*/
 
@@ -459,6 +458,39 @@ ul.pie__pagina__lista {
 }
 
 /*Footer fin*/
+
+/*Inicio Modificacion de Branch*/
+#footer {
+    background-image: linear-gradient(to right, rgb(73, 73, 73) , #01A3D8);
+}
+
+footer h4 {
+    animation: movimiento 10s infinite;
+}
+
+@keyframes movimiento {
+    0%{margin-left: 0;
+       color:black;
+    }
+    50%{margin-left: 50%;
+        color:rgb(35, 35, 87);
+    }
+    100%{margin-left: 0;
+        color:black;
+    }
+}
+
+.pie__pagina__lista i {
+    transition: transform 1s, color 0.5s;
+}
+
+.pie__pagina__lista i:hover {
+    transform: rotate(360deg) ;
+    color: #010001;
+}
+
+/*Fin Modificacion de Branch*/
+
 /*Media querie mobile*/
 
 @media only screen and (max-width: 500px) {
