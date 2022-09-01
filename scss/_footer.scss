@@ -1,0 +1,32 @@
+@import "variables";
+footer {
+    .footer {
+        height: 20vh;
+        i {
+            transition: $transition-1;
+            &:hover {
+                transform: $transform-1 ;
+                color: $color-3;
+            }
+        }
+    }
+}
+
+.fa-facebook {
+    color: #1877f2;
+}
+.fa-instagram {
+    color: #C92BB7;
+}
+.fa-twitter {
+    color: #119bfa;
+}
+.fa-youtube {
+    color: #fe0001;
+}
+.fa-twitch {
+    color: #a971fe;
+}
+.fa-tiktok {
+    color: #010001;
+}

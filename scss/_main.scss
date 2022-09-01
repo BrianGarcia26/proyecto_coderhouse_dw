@@ -1,0 +1,68 @@
+@import "variables";
+main {
+    padding: 0;
+    section {
+        .section_main_video {
+            padding: 0;
+            iframe {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+
+
+
+.bg-black {
+    background-color: $color-1;
+}
+
+.bg-gradiente {
+    background-image: $color-grd-2;
+}
+
+.bg-gradiente2 {
+    background-image: $color-grd-1;
+}
+
+#body__contacto #main {
+    width: 100%;
+    height: 70vh;
+    background: $color-grd-1;
+}
+
+#body__contacto fieldset {
+    border: $border-contacto;
+}
+
+.table {
+    height: 110vh;
+}
+
+.bg-table {
+    background-color: $color-2;
+}
+
+
+
+.playlist, .playlist_mp3{
+    width: 100%;
+    height: 10vh;
+}
+
+.playlist_sound {
+    width: 100%;
+    height: 20vh;
+    iframe {
+        width: 100%;
+    }
+}
+
+.video {
+    height: 40vh;
+    iframe {
+        width: 50vw;
+        height: 40vh;
+    }
+}
