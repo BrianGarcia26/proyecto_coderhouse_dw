@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contactar a Brian Garcia para conciertos, donaciones o trabajo">
+    <meta name="keywords" content="CONTACTO, MENSAJES, INSTAGRAM, FACEBOOK, TWITTER, TWITCH, YOUTUBE, TIKTOK">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
     <script src="https://kit.fontawesome.com/7f77249c93.js" crossorigin="anonymous"></script>
@@ -45,43 +47,31 @@
     <main id="main">
         <section class="p-5">
             <article>
-                <form action="" method="post" class="form fw-bold">
-                    <fieldset>
-                        <legend>Envianos tu consulta</legend>
-                            <label for="nombreyapellido">Nombre y apellido: </label>
-                            <br>
-                            <input type="text" name="nombreyapellido" placeholder="Nombre y apellido" />
-                            <br>
-                            <label for="fechanacimiento">Fecha de Nacimiento: </label>
-                            <br>
-                            <input type="date" name="fechanacimiento" placeholder="dd/mm/aa" />
-                            <br>
-                            <label for="email">E-mail: </label>
-                            <br>
-                            <input type="email" name="email" placeholder="xxx@mail.com" />
-                            <br>
-                            <label for="genero">Género: </label>
-                            <select name="genero">
-                                <option value="M">Masculino</option>
-                                <option value="F">Femenino</option>
-                                <option value="O">Otro</option>
-                            </select>
-                            <br>
-                            <label for="asunto">Asunto: </label>
-                            <br>
-                            <input type="text" name="asunto" placeholder="Asunto" />
-                            <br>
-                            <br>
-                            <label for="mensaje">Mensaje: </label>
-                            <textarea placeholder="Mensaje"></textarea>
-                            <br>
-                            <span>Recibir noticias asociadas a esta página</span>
-                            <input type="checkbox" name="noticias" value="1"/>                               
-                            <br>                                
-                            <input type="submit" value="Enviar"/>
-                            <input type="reset" value="Borrar">                               
-                    </fieldset>
-                </form>                    
+                <form class="fw-bold">
+                    <div class="mb-3">
+                        <label for="inputName" class="form-label">Nombre y Apellido:</label>
+                        <input type="text" class="form-control" id="inputName" aria-describedby="nameHelp">
+                    </div>
+                    <div class="mb-3">
+                      <label for="inputEmail" class="form-label">E-mail:</label>
+                      <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text fw-bold">Nunca compartiremos tu información personal.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputAsunto" class="form-label">Asunto:</label>
+                        <input type="text" class="form-control" id="inputAsunto" aria-describedby="asuntoHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputMensaje" class="form-label">Mensaje:</label>
+                        <input type="text" class="form-control" id="inputMensaje" aria-describedby="mensajeHelp">
+                    </div>
+                    <div class="mb-3 form-check form-check-reverse">
+                      <input type="checkbox" class="form-check-input" id="reverseCheck1">
+                      <label class="form-check-label" for="reverseCheck1">Recibir noticias asociadas a esta página</label>
+                    </div>
+                    <button type="submit" class="btn btn-outline-dark fw-bold">Enviar</button>
+                    <button type="reset" class="btn btn-outline-dark fw-bold">Borrar</button>
+                  </form>                    
             </article>
         </section>
     </main>

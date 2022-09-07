@@ -1,4 +1,6 @@
 @import "variables";
+@import "partials/color";
+
 main {
     padding: 0;
     section {
@@ -12,10 +14,13 @@ main {
     }
 }
 
-
+.card:hover {
+    background-color: map-get($colores, negro);
+    color: map-get($colores, blanco);
+}
 
 .bg-black {
-    background-color: $color-1;
+    background-color: map-get($colores, negro);
 }
 
 .bg-gradiente {
@@ -26,25 +31,24 @@ main {
     background-image: $color-grd-1;
 }
 
+#body__tour main {
+    article {
+        div {
+            background-color: map-get($colores, negro);
+            div {
+                button {
+                    @extend .bg-gradiente;
+                }
+            }
+        }
+    }
+}
+
 #body__contacto #main {
+    @extend .bg-gradiente2;
     width: 100%;
     height: 70vh;
-    background: $color-grd-1;
 }
-
-#body__contacto fieldset {
-    border: $border-contacto;
-}
-
-.table {
-    height: 110vh;
-}
-
-.bg-table {
-    background-color: $color-2;
-}
-
-
 
 .playlist, .playlist_mp3{
     width: 100%;

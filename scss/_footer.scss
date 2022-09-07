@@ -1,4 +1,6 @@
 @import "variables";
+@import "partials/color";
+
 footer {
     .footer {
         height: 20vh;
@@ -6,27 +8,27 @@ footer {
             transition: $transition-1;
             &:hover {
                 transform: $transform-1 ;
-                color: $color-3;
+                color: map-get($colores, negro-azul);
             }
         }
     }
 }
 
 .fa-facebook {
-    color: #1877f2;
+    color: map-get($colores, facebook);
 }
 .fa-instagram {
-    color: #C92BB7;
+    color: map-get($colores, instagram);
 }
 .fa-twitter {
-    color: #119bfa;
+    color: map-get($colores, twitter);
 }
 .fa-youtube {
-    color: #fe0001;
+    color: map-get($colores, youtube);
 }
 .fa-twitch {
-    color: #a971fe;
+    color: map-get($colores, twitch);
 }
 .fa-tiktok {
-    color: #010001;
+    color: map-get($colores, tiktok);
 }

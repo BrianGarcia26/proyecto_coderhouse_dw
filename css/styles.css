@@ -16,28 +16,25 @@ main {
       width: 100%;
       height: 100%; }
 
+.card:hover {
+  background-color: black;
+  color: white; }
+
 .bg-black {
   background-color: black; }
 
-.bg-gradiente {
+.bg-gradiente, #body__tour main article div div button {
   background-image: linear-gradient(to right, #494949, #01A3D8); }
 
-.bg-gradiente2 {
+.bg-gradiente2, #body__contacto #main {
   background-image: linear-gradient(90deg, #8f00a4 0%, #664aac 50%, #0089a4 100%); }
+
+#body__tour main article div {
+  background-color: black; }
 
 #body__contacto #main {
   width: 100%;
-  height: 70vh;
-  background: linear-gradient(90deg, #8f00a4 0%, #664aac 50%, #0089a4 100%); }
-
-#body__contacto fieldset {
-  border: 5px solid #222222; }
-
-.table {
-  height: 110vh; }
-
-.bg-table {
-  background-color: #01A3D8; }
+  height: 70vh; }
 
 .playlist, .playlist_mp3 {
   width: 100%;
@@ -61,7 +58,7 @@ footer .footer {
     transition: transform 1s, color 0.5s; }
     footer .footer i:hover {
       transform: rotate(360deg);
-      color: #010001; }
+      color: #07090f; }
 
 .fa-facebook {
   color: #1877f2; }
