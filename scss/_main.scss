@@ -70,3 +70,10 @@ main {
         height: 40vh;
     }
 }
+
+#body__404 {
+    background-image: $color-grd-1;
+    a {
+        @extend .bg-gradiente;
+    }
+}

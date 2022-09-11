@@ -23,7 +23,7 @@ main {
 .bg-black {
   background-color: black; }
 
-.bg-gradiente, #body__tour main article div div button {
+.bg-gradiente, #body__tour main article div div button, #body__404 a {
   background-image: linear-gradient(to right, #494949, #01A3D8); }
 
 .bg-gradiente2, #body__contacto #main {
@@ -51,6 +51,9 @@ main {
   .video iframe {
     width: 50vw;
     height: 40vh; }
+
+#body__404 {
+  background-image: linear-gradient(90deg, #8f00a4 0%, #664aac 50%, #0089a4 100%); }
 
 footer .footer {
   height: 20vh; }
