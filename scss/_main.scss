@@ -14,9 +14,8 @@ main {
     }
 }
 
-.card:hover {
-    background-color: map-get($colores, negro);
-    color: map-get($colores, blanco);
+.card {
+    background-image: $color-grd-3;
 }
 
 .bg-black {
@@ -24,7 +23,7 @@ main {
 }
 
 .bg-gradiente {
-    background-image: $color-grd-2;
+    background-image: $color-grd-4;
 }
 
 .bg-gradiente2 {
@@ -38,7 +37,14 @@ main {
             div {
                 button {
                     @extend .bg-gradiente;
+                    text-decoration: none;
+                    color: black;
                 }
+                .table {
+                    tr:hover {
+                        color: map-get($colores, azul);
+                    }
+                }   
             }
         }
     }
@@ -47,7 +53,9 @@ main {
 #body__contacto #main {
     @extend .bg-gradiente2;
     width: 100%;
-    height: 70vh;
+    .form-control {
+        width: 400px;
+    }
 }
 
 .playlist, .playlist_mp3{

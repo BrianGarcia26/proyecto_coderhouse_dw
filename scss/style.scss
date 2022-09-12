@@ -19,3 +19,25 @@
         width: 100vw;
     }
 }
+
+@media only screen and (max-width: 550px) {
+
+    #body__contacto {
+        #main {
+            .form-control {
+                width: 300px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    #body__contacto {
+        #main {
+            .form-control {
+                width: 200px;
+            }
+        }
+    }
+}

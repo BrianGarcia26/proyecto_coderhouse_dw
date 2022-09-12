@@ -1,8 +1,8 @@
 $colores: (
-    "negro": rgb(0, 0, 0),
-    "azul": rgb(1, 163, 216),
-    "negro-azul": rgb(7, 9, 15),
-    "blanco": rgb(255, 255, 255),
+    "negro": #000000,
+    "azul": #01A3D8,
+    "negro-azul": #070707,
+    "blanco": #EFEFEF,
     "facebook": #1877f2,
     "instagram": #C92BB7,
     "twitter": #119bfa,
@@ -10,3 +10,11 @@ $colores: (
     "twitch": #a971fe,
     "tiktok": #010001,
 );
+
+$paleta: (
+    "1": #01A3D8,
+    "2": #EFEFEF,
+    "3": #3454D1,
+    "4": #070707,
+    "asd": #D1345B,
+)
