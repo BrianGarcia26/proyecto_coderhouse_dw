@@ -10,7 +10,7 @@
 
 * [Descripción del proyecto](#descripción-del-proyecto)
 
-* [Características de la página](#Características-de-la-página)
+* [Características de la página](#características-de-la-página)
 
 * [Acceso al proyecto](#acceso-al-proyecto)
 
