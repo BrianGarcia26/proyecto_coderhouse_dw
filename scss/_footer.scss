@@ -10,25 +10,26 @@ footer {
                 transform: $transform-1 ;
                 color: map-get($colores, negro-azul);
             }
+            
+        }
+        .fa-facebook {
+            color: map-get($colores, facebook);
+        }
+        .fa-instagram {
+            color: map-get($colores, instagram);
+        }
+        .fa-twitter {
+            color: map-get($colores, twitter);
+        }
+        .fa-youtube {
+            color: map-get($colores, youtube);
+        }
+        .fa-twitch {
+            color: map-get($colores, twitch);
+        }
+        .fa-tiktok {
+            color: map-get($colores, tiktok);
         }
     }
 }
 
-.fa-facebook {
-    color: map-get($colores, facebook);
-}
-.fa-instagram {
-    color: map-get($colores, instagram);
-}
-.fa-twitter {
-    color: map-get($colores, twitter);
-}
-.fa-youtube {
-    color: map-get($colores, youtube);
-}
-.fa-twitch {
-    color: map-get($colores, twitch);
-}
-.fa-tiktok {
-    color: map-get($colores, tiktok);
-}

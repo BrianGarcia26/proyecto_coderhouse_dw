@@ -67,24 +67,18 @@ footer .footer {
     footer .footer i:hover {
       transform: rotate(360deg);
       color: #070707; }
-
-.fa-facebook {
-  color: #1877f2; }
-
-.fa-instagram {
-  color: #C92BB7; }
-
-.fa-twitter {
-  color: #119bfa; }
-
-.fa-youtube {
-  color: #fe0001; }
-
-.fa-twitch {
-  color: #a971fe; }
-
-.fa-tiktok {
-  color: #010001; }
+  footer .footer .fa-facebook {
+    color: #1877f2; }
+  footer .footer .fa-instagram {
+    color: #C92BB7; }
+  footer .footer .fa-twitter {
+    color: #119bfa; }
+  footer .footer .fa-youtube {
+    color: #fe0001; }
+  footer .footer .fa-twitch {
+    color: #a971fe; }
+  footer .footer .fa-tiktok {
+    color: #010001; }
 
 @media only screen and (max-width: 767px) {
   .section_main_video {
