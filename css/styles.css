@@ -1,0 +1,98 @@
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  padding: 0; }
+  header .logo {
+    height: 10vh; }
+
+main {
+  padding: 0; }
+  main section .section_main_video {
+    padding: 0; }
+    main section .section_main_video iframe {
+      width: 100%;
+      height: 100%; }
+
+.card {
+  background-image: linear-gradient(180deg, #070707 0%, #3454D1 50%, #01A3D8 100%); }
+
+.bg-black {
+  background-color: #000000; }
+
+.bg-gradiente, #body__tour main article div div button, #body__404 a {
+  background-image: linear-gradient(to right, #EFEFEF, #01A3D8); }
+
+.bg-gradiente2, #body__contacto #main {
+  background-image: linear-gradient(90deg, #D1345B 0%, #3454D1 50%, #01A3D8 100%); }
+
+#body__tour main article div {
+  background-color: #000000; }
+  #body__tour main article div div button {
+    text-decoration: none;
+    color: black; }
+  #body__tour main article div div .table tr:hover {
+    color: #01A3D8; }
+
+#body__contacto #main {
+  width: 100%; }
+  #body__contacto #main .form-control {
+    width: 400px; }
+
+.playlist, .playlist_mp3 {
+  width: 100%;
+  height: 10vh; }
+
+.playlist_sound {
+  width: 100%;
+  height: 20vh; }
+  .playlist_sound iframe {
+    width: 100%; }
+
+.video {
+  height: 40vh; }
+  .video iframe {
+    width: 50vw;
+    height: 40vh; }
+
+#body__404 {
+  background-image: linear-gradient(90deg, #D1345B 0%, #3454D1 50%, #01A3D8 100%); }
+
+footer .footer {
+  height: 20vh; }
+  footer .footer i {
+    transition: transform 1s, color 0.5s; }
+    footer .footer i:hover {
+      transform: rotate(360deg);
+      color: #070707; }
+  footer .footer .fa-facebook {
+    color: #1877f2; }
+  footer .footer .fa-instagram {
+    color: #C92BB7; }
+  footer .footer .fa-twitter {
+    color: #119bfa; }
+  footer .footer .fa-youtube {
+    color: #fe0001; }
+  footer .footer .fa-twitch {
+    color: #a971fe; }
+  footer .footer .fa-tiktok {
+    color: #010001; }
+
+@media only screen and (max-width: 767px) {
+  .section_main_video {
+    height: 60vh; }
+    .section_main_video iframe {
+      width: 100vw;
+      height: 100%; }
+  .video iframe {
+    width: 100vw; } }
+
+@media only screen and (max-width: 550px) {
+  #body__contacto #main .form-control {
+    width: 300px; } }
+
+@media only screen and (max-width: 400px) {
+  #body__contacto #main .form-control {
+    width: 200px; } }
