@@ -32,7 +32,7 @@ Podemos encontrar en la primer página una biografía o información acerca de l
 
 En las siguientes páginas contamos con accesos a distintos tipos de servicios ofrecidos por dicha sociedad como por ejemplo venta de entradas, un método para contactarse de forma privada, información acerca de los siguientes recitales, donaciones, clases, videos y música, etc. 
 
-Además de contar con un pie de página donde se anexan todas las redes sociales, también cuenta con una página de error 404
+Además de contar con un pie de página donde se anexan todas las redes sociales, también cuenta con una página de error 404 que por el momento se puede acceder haciendo click al logo de Facebook desde la página index.
 
 ## Acceso al proyecto
 
