@@ -10,7 +10,7 @@
 
 * [Descripción del proyecto](#descripción-del-proyecto)
 
-* [Características de la página](#características-de-la-página)
+* [Características de las páginas](#características-de-las-páginas)
 
 * [Acceso al proyecto](#acceso-al-proyecto)
 
@@ -24,9 +24,9 @@
 
 ## Descripción del proyecto
 
-Este es un trabajo desarrollado para un artista, músico, banda, orquesta, etc.
+Este es un trabajo desarrollado para un artista, músico, banda, orquesta, etc. Con este proyecto se desea aumentar el alcance del público consiguiendo páginas personalizadas y poder informar todo lo necesario acerca del artista dentro de las mismas
 
-## Características de la página
+## Características de las páginas
 
 Podemos encontrar en la primer página una biografía o información acerca de la/s personas involucradas en el proyecto
 
@@ -36,11 +36,25 @@ Además de contar con un pie de página donde se anexan todas las redes sociales
 
 ## Acceso al proyecto
 
-asd
+[:link: Acceder a la página subida al servidor](https://bgarciacoder.000webhostapp.com/)
+
+[:link: Acceder a la página desde Github pages](https://briangarcia26.github.io/proyecto_coderhouse_dw/)
+
+[:link: Acceder al repositorio de Github](https://github.com/BrianGarcia26/proyecto_coderhouse_dw)
 
 ## Tecnologías utilizadas
 
-asd
+:heavy_check_mark: HTML
+
+:heavy_check_mark: CSS
+
+:heavy_check_mark: Bootstrap
+
+:heavy_check_mark: Node.js
+
+:heavy_check_mark: GIT y Github
+
+:heavy_check_mark: Visual Studio Code
 
 ## Licencia
 
