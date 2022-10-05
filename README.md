@@ -58,7 +58,7 @@ Además de contar con un pie de página donde se anexan todas las redes sociales
 
 ## Licencia
 
-asd
+[:link: Acceder a la licencia](https://github.com/BrianGarcia26/proyecto_coderhouse_dw#licencia)
 
 ## Conclusión
 
